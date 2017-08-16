@@ -17,3 +17,8 @@ apps:
 parts:
   openfortivpn:
     plugin: autotools
+    build-packages:
+      - gcc 
+      - automake 
+      - autoconf 
+      - libssl-dev
