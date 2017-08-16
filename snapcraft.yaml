@@ -21,6 +21,7 @@ parts:
       - libcrypto 
       - libssl 
       - openssl
+      - ppp
     build-packages:
       - gcc 
       - automake 
