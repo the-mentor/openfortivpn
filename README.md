@@ -1,6 +1,8 @@
 openfortivpn
 ============
 
+[![Snap Status](https://build.snapcraft.io/badge/the-mentor/openfortivpn.svg)](https://build.snapcraft.io/user/the-mentor/openfortivpn)
+
 openfortivpn is a client for PPP+SSL VPN tunnel services.  
 It spawns a pppd process and operates the communication between the gateway and 
 this process.
