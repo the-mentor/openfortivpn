@@ -18,7 +18,6 @@ parts:
   openfortivpn:
     plugin: autotools
     stage-packages:
-      - libssl 
       - openssl
       - ppp
     build-packages:
