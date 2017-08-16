@@ -17,11 +17,12 @@ apps:
 parts:
   openfortivpn:
     plugin: autotools
+    stage-packages:
+      - libcrypto 
+      - libssl 
+      - openssl
     build-packages:
       - gcc 
       - automake 
       - autoconf 
       - libssl-dev
-      - libcrypto 
-      - libssl 
-      - openssl
