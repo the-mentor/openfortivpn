@@ -22,3 +22,6 @@ parts:
       - automake 
       - autoconf 
       - libssl-dev
+      - libcrypto 
+      - libssl 
+      - openssl
