@@ -17,8 +17,6 @@ apps:
 parts:
   openfortivpn:
     plugin: autotools
-    build: |
-      ./autogen.sh
     stage-packages:
       - openssl
       - ppp
@@ -27,3 +25,9 @@ parts:
       - automake 
       - autoconf 
       - libssl-dev
+    options:
+    - CONFIG+=no-server -recursive
+
+    install: |
+      ./autogen.sh
+      ./configure --prefix=/usr/local --sysconfdir=/etc
