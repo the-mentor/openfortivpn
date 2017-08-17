@@ -17,6 +17,8 @@ apps:
 parts:
   openfortivpn:
     plugin: autotools
+    build: |
+      ./autogen.sh
     stage-packages:
       - openssl
       - ppp
