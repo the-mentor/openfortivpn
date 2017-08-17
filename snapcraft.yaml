@@ -25,6 +25,7 @@ parts:
       - automake 
       - autoconf 
       - libssl-dev
+      - pkg-config
   #  options:
    # - CONFIG+=no-server -recursive
 
