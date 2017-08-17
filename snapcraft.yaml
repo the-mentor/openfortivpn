@@ -25,8 +25,8 @@ parts:
       - automake 
       - autoconf 
       - libssl-dev
-    options:
-    - CONFIG+=no-server -recursive
+  #  options:
+   # - CONFIG+=no-server -recursive
 
     install: |
       ./autogen.sh
